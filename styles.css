@@ -1,0 +1,123 @@
+.Title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    filter: drop-shadow(2px 2px 2px red);
+    font-size: 60px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-radius: 5px;
+}
+
+.links {
+    background-color: darkcyan;
+    border-radius: 3px;
+    color: azure;
+    padding: 5px;
+}
+
+p,
+li,
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+li:hover {
+    transform: scale(2);
+}
+
+h1 {
+    display: flexbox;
+    filter: drop-shadow(2px 2px 2px blue);
+}
+
+h6 {
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+#mana {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-wrap: normal;
+
+}
+
+.mana-name {
+    font-weight: bold;
+}
+
+.mana-symbol {
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.mana-symbol:hover {
+    transform: scale(2);
+}
+
+.playing-cards {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.playing-cards:hover {
+    transform: scale(2);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: darkslateblue;
+    border-radius: 5px;
+}
+
+#form1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+
+}
+
+input[type=text] {
+    border: 3px solid blue;
+    border-radius: 5px;
+    width: 10%;
+    padding: 10px;
+}
+
+input[type=submit]:hover  {
+    background-color: darkgray;
+}
+
+#address-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+#address-body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
